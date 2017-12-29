@@ -4,14 +4,14 @@ Google DataProc Spark Scala Job for MNIST Handwritten Digit Recogintion using De
 
 ## Requirements:
 
-Spark 2.2.0
-Scala 2.11.12
+Spark 2.2.0\
+Scala 2.11.12\
 Google Cloud Environment
 
 ## Dependencies 
 
-spark-core 2.11
-spark-mllib 2.11
+spark-core 2.11\
+spark-mllib 2.11\
 spark-sql 2.11
 
 ## Steps:
