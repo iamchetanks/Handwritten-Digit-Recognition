@@ -15,8 +15,8 @@ object DigitRecognition {
       import spark.implicits._
 
         // to run locally
-      //val training = spark.read.format("libsvm").load("E:/Google_drive_personal/chetan/winter_break_2017/hand-return-recognition/data/libsvm/mnist")
-      //val test = spark.read.format("libsvm").load("E:/Google_drive_personal/chetan/winter_break_2017/hand-return-recognition/data/libsvm/mnist.t")
+      //val training = spark.read.format("libsvm").load("E:/Google_drive_personal/chetan/winter_break_2017/handwritten-recognition/data/libsvm/mnist")
+      //val test = spark.read.format("libsvm").load("E:/Google_drive_personal/chetan/winter_break_2017/handwritten-recognition/data/libsvm/mnist.t")
 
         // to run on Google Cloud dataproc
       val training = spark.read.format("libsvm").load(s"gs://mnist-handwritten-digit-recognition/mnist")
